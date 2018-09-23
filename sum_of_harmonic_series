@@ -1,1 +1,9 @@
-
+n=int(input("Enter the limit(Harmonic Series):\n"))
+sum=0
+for i in range(1,n+1):
+    if i==n:
+        print("(1/" + str(i) + ")")
+    else:
+        print("(1/" + str(i) + ") +")
+    sum=sum+(1/i)
+print("Sum of " + str(n) + " harmonic series is " + str(sum))
