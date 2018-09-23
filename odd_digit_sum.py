@@ -6,4 +6,3 @@ while n>0:
     if rem%2!=0:
         sum=sum+rem
 print("Sum of odd digits"+ str(sum))
-    
